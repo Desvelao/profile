@@ -1,0 +1,80 @@
+body{
+  font-family: Monserrat, sans-serif !important;
+  background: url("http://7wallpapers.net/wp-content/uploads/1_Dota2-Phantom-Assassin.jpg") center fixed;
+  /*background-color: red;*/
+}
+
+.dv-bg{
+  /*background: url("http://7wallpapers.net/wp-content/uploads/1_Dota2-Phantom-Assassin.jpg") center fixed;*/
+  /*filter: blur(2px) brightness(50%);*/
+  /*height: 100%;*/
+  /*width: 100%;*/
+  /*position: absolute;*/
+  /*margin: 0,*/
+  background: #323232;
+}
+
+.dv-card{
+  background-color: white;
+  border: 1px solid white;
+  /*padding:1em;*/
+}
+
+.dv-card-bg{
+  background: url("http://7wallpapers.net/wp-content/uploads/1_Dota2-Phantom-Assassin.jpg") center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 5em;
+}
+
+.dv-card.img{
+
+}
+.dv-card-body{
+  background-color: white;
+  padding:1em;
+}
+
+.dv-links a{
+  font-size: 2em;
+  text-decoration: none;
+  transition: 0.35s ease-in-out;
+}
+
+.dv-links a:hover{
+  transform: translate(0,-.2em);
+  color: #b500a8;
+}
+
+.card-body a{
+  transition: 0.35s ease-in-out;
+}
+.card-body a:hover{
+  border: 1px solid #b500a8;
+  background-color: #b500a8 !important;
+}
+
+.dv-links-twitter{
+  color: #1DA1F2;
+}
+.dv-links-steam{
+  color: #000000;
+}
+.dv-links-patreon{
+  color: #F96854;
+}
+.dv-links-email{
+  color: #05ed69;
+}
+.dv-links-reddit{
+  color: #FF4500;
+}
+
+.dv-img-rad{
+  border-radius: 50%;
+}
+
+.profile img{
+
+}
