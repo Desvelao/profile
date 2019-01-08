@@ -95,6 +95,9 @@ body{
 .dv-links-steam{
   color: #000000;
 }
+.dv-links-github{
+  color: #000000;
+}
 .dv-links-patreon{
   color: #F96854;
 }
@@ -111,4 +114,8 @@ body{
 
 .profile img{
 
+}
+
+.dv-bg-primary{
+  background-color: #1e00af
 }
