@@ -49,11 +49,12 @@ body{
   font-size: 2em;
   text-decoration: none;
   transition: 0.35s ease-in-out;
+  margin: 0 0.1em;
 }
 
 .dv-links a:hover{
   transform: translate(0,-.2em);
-  color: #b500a8;
+  /* color: #b500a8; */
 }
 
 .dv-proyects{
@@ -89,23 +90,26 @@ body{
   background-color: #b500a8 !important;
 }
 
-.dv-links-twitter{
+.dv-links-twitter, .dv-links-twitter:hover{
   color: #1DA1F2;
 }
-.dv-links-steam{
+.dv-links-steam, .dv-links-steam:hover{
   color: #000000;
 }
-.dv-links-github{
+.dv-links-github, .dv-links-github:hover{
   color: #000000;
 }
-.dv-links-patreon{
+.dv-links-patreon, .dv-links-patreon:hover{
   color: #F96854;
 }
-.dv-links-email{
+.dv-links-email, .dv-links-email:hover{
   color: #05ed69;
 }
-.dv-links-reddit{
+.dv-links-reddit, .dv-links-reddit:hover{
   color: #FF4500;
+}
+.dv-links-discord, .dv-links-discord:hover{
+  color: #7289DA;
 }
 
 .dv-img-rad{
