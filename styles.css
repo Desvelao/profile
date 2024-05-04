@@ -1,32 +1,22 @@
 body{
   font-family: Monserrat, sans-serif !important;
-  /*background: url("http://7wallpapers.net/wp-content/uploads/1_Dota2-Phantom-Assassin.jpg") center fixed;*/
-  /*background-color: red;*/
 }
 
 .dv-bg{
-  /*background: url("http://7wallpapers.net/wp-content/uploads/1_Dota2-Phantom-Assassin.jpg") center fixed;*/
-  /*filter: blur(2px) brightness(50%);*/
-  /*height: 100%;*/
-  /*width: 100%;*/
-  /*position: absolute;*/
-  /*margin: 0,*/
   background: #323232;
 }
 
 .dv-me{
   min-height: 100vh;
   padding: 0;
-  background: url("http://blog.cielore.com/files/2016/09/path-1030970_1280.jpg") center fixed;
+  background: url("img/profile-background.jpg") center fixed;
   background-size: cover;
-  /*background: url("http://7wallpapers.net/wp-content/uploads/1_Dota2-Phantom-Assassin.jpg") center fixed;*/
 }
 
 .dv-card{
   background-color: white;
   border: 1px solid white;
   box-shadow: 0 0 15px rgba(0,0,0, 0.75);
-  /*padding:1em;*/
 }
 
 .dv-card-bg{
@@ -37,9 +27,6 @@ body{
   height: 5em;
 }
 
-.dv-card.img{
-
-}
 .dv-card-body{
   background-color: white;
   padding:1em;
@@ -54,16 +41,15 @@ body{
 
 .dv-links a:hover{
   transform: translate(0,-.2em);
-  /* color: #b500a8; */
 }
 
-.dv-proyects{
+.dv-projects{
   background: #e8e3e3 url("http://7wallpapers.net/wp-content/uploads/1_Dota2-Phantom-Assassin.jpg") center;;
   background-size: cover;
   border-top: 4px solid #1e00af;
 }
 
-.dv-proyects-title{
+.dv-projects-title{
   font-size: 1.5em;
   padding: .5em;
   display: inline-block;
@@ -73,7 +59,7 @@ body{
   color : #1e00af;
 }
 
-.dv-proyects-cards{
+.dv-projects-cards{
   max-height: 40vh;
 }
 .card-body a{
@@ -114,10 +100,6 @@ body{
 
 .dv-img-rad{
   border-radius: 50%;
-}
-
-.profile img{
-
 }
 
 .dv-bg-primary{
