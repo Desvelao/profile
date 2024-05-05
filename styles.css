@@ -39,6 +39,12 @@ body{
   margin: 0 0.1em;
 }
 
+.dv-links a img{
+  height: 32px;
+  width: auto;
+  margin: 0 0.1em;
+}
+
 .dv-links a:hover{
   transform: translate(0,-.2em);
 }
@@ -96,6 +102,12 @@ body{
 }
 .dv-links-discord, .dv-links-discord:hover{
   color: #7289DA;
+}
+.dv-links-rss, .dv-links-rss:hover{
+  color: #ee802f;
+}
+.dv-links-card, .dv-links-card:hover{
+  color: #8b00cc;
 }
 
 .dv-img-rad{
